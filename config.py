@@ -9,26 +9,26 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "21911172"))
+API_HASH = getenv("API_HASH", "22fee9fa813e7254521310ae5fe000d2")
 
-EVAL = list(map(int, getenv("EVAL", "7427691214 7045191057").split()))
+EVAL = list(map(int, getenv("EVAL", "6024212623").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5799143538:AAGcuDAo5wbM9OK0Plm7B9NFxslK2LUfqcU")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Your_official_crush1")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "UMIKO_CHAT_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = getenv("BOT_NAME" , "Umiko Music")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = getenv("ASSUSERNAME" , "UmikOMuSiC")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ghoda:loda@cluster0.fgrpret.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002237336934))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001923845903))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7427691214))
+OWNER_ID = int(getenv("OWNER_ID", 6751954799))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,11 +55,11 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DAXXTEAM/DAXXMUSIC",
+    "https://github.com/Mr-Sakil/Tt",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+    "GIT_TOKEN", "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"
 )  # ----------------------------------------------------------------
 # -------------------------------------------------------------------
 # --------------------------------------------------------------------
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALLTYPECC")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gitwizardbypass")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIP_SAKIL_BIO")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FellingThroughShayari")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gitwizardbypass")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
@@ -116,7 +116,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQE7EL8AnTIllyodviQmibuL7Db_ROeyfl0-HJxbS_WLq6Pbc6EsM8maJ9xPpRcPGRWes_6PLtNCk0ZXef7kIZ5n1hulebucr83LT5NeK4KSKHNh_dvbHt_Wh_pbdvauZ049lHShcg_t4nV0DFbNX1AmRKNDuMpOSR1y30RGmkWBWRd3DZlt6DaGAGpyp_gqvLiYwzgKDjfs3AlM97Ud0EeqqGMntt2YGLhLFVj7BWYNgBh2P7kTH5OHu-6OqppsN6F2roeH0sb05wOq0NlvTcs5AyV_6cqbboYSFDvpZ9ae2Gzrl5a91Cuiyno5jxuCc54kCez67YNXeB-mmF-8v7TezO0GKwAAAAGk_yddAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
