@@ -3,6 +3,7 @@ aiohttp
 apscheduler
 asyncio
 bard
+bing_image_downloader 
 beautifulsoup4
 bs4
 cloudscraper
@@ -46,7 +47,7 @@ pyttsx3
 pytz
 pytube
 py-tgcalls==0.9.7
-pyyaml==5.3.1
+pyyaml==6.0.1
 qrcode
 requests
 SafoneAPI
